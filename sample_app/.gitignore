@@ -19,7 +19,6 @@
 
 # Ignore uploaded files in development
 /storage/*
-!/storage/.keep
 
 /node_modules
 /yarn-error.log
@@ -29,3 +28,18 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/config/credentials.yml.enc
+/config/database.yml
+/config/secrets.yml
+/test
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+
+/.idea/*
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+
+# Ignore application configuration
+/config/application.yml
